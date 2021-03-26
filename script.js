@@ -15,14 +15,14 @@ footer.innerHTML = sender;
 footer.href = "https://www.instagram.com/krisnabiru/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Sayangku", "Aku ada pertanyaan nih buat kamu?", "question").then(function () {
+  Swal.fire("Hai Sayangku", "Aku ada pertanyaan nih buat kamu?", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
-      Swal.fire("Awas aja kalo boong!!", "", "error").then(function () {
+      Swal.fire("Awas aja kalo boong!", "", "error").then(function () {
 
         const {
           value: name
         } = Swal.fire({
-          title: 'Masukin nama kamu dulu',
+          title: 'Nama kamu siapa?',
           input: 'text',
           inputLabel: '',
           showCancelButton: true,
