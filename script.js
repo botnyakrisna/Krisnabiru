@@ -17,7 +17,7 @@ footer.href = "https://www.instagram.com/krisnabiru/";
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire("Hai Sayangku", "Aku ada pertanyaan nih buat kamu", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
-      Swal.fire("Kalo boong tar kamu makin pendek!", "", "error").then(function () {
+      Swal.fire("Kalo boong tar kamu akin pendek!", "", "error").then(function () {
 
         const {
           value: name
