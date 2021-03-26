@@ -15,9 +15,9 @@ footer.innerHTML = sender;
 footer.href = "https://www.instagram.com/krisnabiru/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hai Sayangku", "Aku ada pertanyaan nih buat kamu?", "question").then(function () {
+  Swal.fire("Hai Sayangku", "Aku ada pertanyaan nih buat kamu", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
-      Swal.fire("Awas aja kalo boong!", "", "error").then(function () {
+      Swal.fire("Kalo boong tar kamu makin pendek!", "", "error").then(function () {
 
         const {
           value: name
@@ -69,7 +69,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                       if (result.isConfirmed) {
                         Swal.fire(`Huhu iya ${sender} juga kangen ${nama} :((`).then(function () {
                           Swal.fire('Terakhir deh sayang').then(function () {
-                            Swal.fire('Coba klik ikon hati di paling bawah dong')
+                            Swal.fire('Coba klik gambar hati di paling bawah dong')
                           })
                         })
                       } else if (result.isDenied) {
